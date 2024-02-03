@@ -29,6 +29,8 @@
 #         file.write("# Your Python code goes here\n")
 #     print(f"Created {file_name}.py")
 
-num = [1,21,3,33,45,24]
-
-print(len(num))
+s = 'rat'
+print(len(s))
+for i in range(0 , len(s)):
+    print(s[i])
+  
